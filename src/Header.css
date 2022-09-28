@@ -1,6 +1,11 @@
 .header {
     position: sticky;
+    top: 0;
     display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    width: 100%;
+    z-index: 999;
 }
 .header__left {
     display: flex;
@@ -8,12 +13,12 @@
 }
 .header__left > img {
     object-fit: contain;
-    height: 50px;
+    height: 48px;
     margin-right: 10px;
 }
 .header__search {
     display: flex;
-    padding: 10px;
+    padding: 6px;
     align-items: center;
     height: 22px;
     color: gray;
@@ -24,4 +29,9 @@
     outline: none;
     background: none;
     border: none;
+}
+.header__right{
+    display: flex;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
