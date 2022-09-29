@@ -6,6 +6,8 @@
     border-bottom: 0.1px solid lightgray;
     width: 100%;
     z-index: 999;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 .header__left {
     display: flex;
